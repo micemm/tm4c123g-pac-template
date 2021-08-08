@@ -11,7 +11,7 @@ This is a template for an embedded Rust application that utilizes the
 
 \* Rustup is a program to install and manage Rust toolchains for diefferent platforms. Depending on your OS, it may also be possible to install the Rust compiler rustc or the build system cargo without rustup. If this is installed in parallel to rustup, it may cause problems.
 
-Also Make sure to add all the required tools to the PATH.
+Also make sure to add all the required tools to the PATH.
 
 ### Setup
 Install the thumbv7em-none-eabihf target:
