@@ -1,6 +1,6 @@
-# Rust project using the Peripheral Access Crate (PAG) for the TM4C123G Controller
+# Rust template using the Peripheral Access Crate (PAC) for the TM4C123G Controller
 
-This is a simple embedded rust application that utilizes the
+This is a template for an embedded Rust application that utilizes the
 [ZM4C123x PAC](https://crates.io/crates/tm4c123x) crate for registerlevel programming in Rust.
 
 ### Required Software
@@ -18,4 +18,8 @@ Install the thumbv7em-none-eabihf target:
 ```
 rustup target add thumbv7em-none-eabihf
 ```
-Clone the project using git and open the project folder in Visual Studio Code.
+Install cargo-generate:
+```
+cargo install cargo-generate
+```
+Then use ```cargo generate --git``` with the link to this template repository.
